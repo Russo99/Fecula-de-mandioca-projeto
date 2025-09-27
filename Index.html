@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Processo da Fécula de Mandioca - Quedas do Iguaçu</title>
+    <style>
+        /* Reset e estilos gerais */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f5f5f5;
+            color: #333;
+            line-height: 1.6;
+        }
+        
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(to right, #2e7d32, #4caf50);
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+        
+        header p {
+            font-size: 1.2rem;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        /* Navegação */
+        nav {
+            background-color: #1b5e20;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 10px 0;
+        }
+        
+        nav li {
+            margin: 0 15px;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            padding: 5px 10px;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        
+        nav a:hover {
+            background-color: rgba(255,255,255,0.2);
+        }
+        
+        /* Seções */
+        section {
+            padding: 50px 0;
+            border-bottom: 1px solid #e0e0e0;
+        }
+        
+        section h2 {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #2e7d32;
+            font-size: 2rem;
+        }
+        
+        .step-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+        }
+        
+        .step-text {
+            flex: 1;
+            min-width: 300px;
+            padding: 20px;
+        }
+        
+        .step-image {
+            flex: 1;
+            min-width: 300px;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .step-image img {
+            max-width: 100%;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        
+        /* Contato */
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin-top: 30px;
+        }
+        
+        .contact-item {
+            text-align: center;
+            padding: 20px;
+            min-width: 250px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        
+        .contact-item i {
+            font-size: 2rem;
+            color: #4caf50;
+            margin-bottom: 10px;
+        }
+        
+        /* Rodapé */
+        footer {
+            background-color: #1b5e20;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+            margin-top: 50px;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            nav li {
+                margin: 5px 0;
+            }
+            
+            .step-container {
+                flex-direction: column;
+            }
+            
+            .step-text, .step-image {
+                width: 100%;
+            }
+            
+            header h1 {
+                font-size: 2rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <h1>Processo da Fécula de Mandioca</h1>
+            <p>Conheça a jornada da mandioca dos produtores de Quedas do Iguaçu até o mercado</p>
+        </div>
+    </header>
+    
+    <!-- Navegação -->
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#produtores">Produtores</a></li>
+                <li><a href="#cooperativa">Cooperativa</a></li>
+                <li><a href="#agroindustria">Agroindústria</a></li>
+                <li><a href="#mercado">Mercado</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </div>
+    </nav>
+    
+    <!-- Conteúdo Principal -->
+    <main class="container">
+        <!-- Seção Produtores -->
+        <section id="produtores">
+            <h2>Produtores de Quedas do Iguaçu e Região</h2>
+            <div class="step-container">
+                <div class="step-text">
+                    <p>A jornada da fécula de mandioca começa com os dedicados produtores rurais de Quedas do Iguaçu e região. Estes agricultores cultivam a mandioca com técnicas tradicionais e sustentáveis, garantindo a qualidade do produto desde o plantio até a colheita.</p>
+                    <p>A mandioca é uma cultura de grande importância para a região, sendo fonte de renda para muitas famílias. Os produtores seguem práticas agrícolas que respeitam o meio ambiente e mantêm a fertilidade do solo.</p>
+                </div>
+                <div class="step-image">
+                    <img src="https://placehold.co/600x400/4caf50/white?text=Produtores+de+Mandioca" alt="Produtores de mandioca">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Cooperativa -->
+        <section id="cooperativa">
+            <h2>Da Produção para a Cooperativa</h2>
+            <div class="step-container">
+                <div class="step-image">
+                    <img src="https://placehold.co/600x400/388e3c/white?text=Cooperativa+Agrícola" alt="Cooperativa agrícola">
+                </div>
+                <div class="step-text">
+                    <p>Após a colheita, a mandioca é encaminhada para a cooperativa local, onde é realizada a primeira etapa de processamento. A cooperativa funciona como um elo importante entre os produtores e a agroindústria, agregando valor à produção local.</p>
+                    <p>Na cooperativa, a mandioca é selecionada, lavada e preparada para o próximo estágio do processo. Esta etapa garante a padronização da matéria-prima e o controle de qualidade necessário para a produção da fécula.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Agroindústria -->
+        <section id="agroindustria">
+            <h2>Processamento na Agroindústria</h2>
+            <div class="step-container">
+                <div class="step-text">
+                    <p>Na agroindústria, a mandioca passa por um processo de transformação que inclui raspagem, lavagem, trituração, prensagem, secagem e peneiramento. Estas etapas resultam na fécula de mandioca, um produto de alta pureza e qualidade.</p>
+                    <p>O processo é realizado com tecnologia moderna que garante a eficiência e a segurança alimentar. A fécula produzida atende aos mais rigorosos padrões de qualidade, sendo adequada para diversos usos na indústria alimentícia e em outros setores.</p>
+                </div>
+                <div class="step-image">
+                    <img src="https://placehold.co/600x400/2e7d32/white?text=Agroindústria+de+Fécula" alt="Agroindústria de fécula">
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Mercado -->
+        <section id="mercado">
+            <h2>Distribuição para o Mercado</h2>
+            <div class="step-container">
+                <div class="step-image">
+                    <img src="https://placehold.co/600x400/1b5e20/white?text=Mercado+de+Fécula" alt="Mercado de fécula">
+                </div>
+                <div class="step-text">
+                    <p>A fécula de mandioca é distribuída para diversos mercados, atendendo a diferentes categorias:</p>
+                    <ul>
+                        <li><strong>Alimentação:</strong> Utilizada como espessante em molhos, sopas, sobremesas e produtos de panificação.</li>
+                        <li><strong>Produtos Eco:</strong> Aplicada na produção de alimentos orgânicos e sustentáveis.</li>
+                        <li><strong>Indústria:</strong> Usada na fabricação de papel, têxteis, colas e outros produtos industriais.</li>
+                        <li><strong>Cosméticos:</strong> Empregada na formulação de produtos de beleza e cuidados pessoais.</li>
+                    </ul>
+                    <p>A versatilidade da fécula de mandioca a torna um produto valioso em diversos setores da economia.</p>
+                </div>
+            </div>
+        </section>
+        
+        <!-- Seção Contato -->
+        <section id="contato">
+            <h2>Entre em Contato</h2>
+            <p style="text-align: center; margin-bottom: 30px;">Tem interesse em nossa fécula de mandioca? Entre em contato conosco!</p>
+            
+            <div class="contact-info">
+                <div class="contact-item">
+                    <i>📱</i>
+                    <h3>WhatsApp</h3>
+                    <p>(45) 9 9999-9999</p>
+                    <a href="https://wa.me/5545999999999" style="display: inline-block; margin-top: 10px; padding: 8px 15px; background-color: #4caf50; color: white; text-decoration: none; border-radius: 4px;">Enviar Mensagem</a>
+                </div>
+                
+                <div class="contact-item">
+                    <i>✉️</i>
+                    <h3>E-mail</h3>
+                    <p>contato@feculamandioca.com.br</p>
+                    <a href="mailto:contato@feculamandioca.com.br" style="display: inline-block; margin-top: 10px; padding: 8px 15px; background-color: #4caf50; color: white; text-decoration: none; border-radius: 4px;">Enviar E-mail</a>
+                </div>
+                
+                <div class="contact-item">
+                    <i>📍</i>
+                    <h3>Localização</h3>
+                    <p>Quedas do Iguaçu - PR</p>
+                    <p>Região Sudoeste do Paraná</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Processo da Fécula de Mandioca - Quedas do Iguaçu. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+</body>
+</html>
